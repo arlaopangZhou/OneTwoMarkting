@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f0f0"
+    android:orientation="vertical" >
+   
+    <LinearLayout 
+       android:layout_width="match_parent"
+    android:layout_height="190dp"
+    android:background="#f0f0f0"
+    android:orientation="vertical"  
+        
+        >
+    
+<com.example.onetwosale.BannerLayout
+        android:id="@+id/banner"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ba3" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ba4" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ba6" /> 
+    </com.example.onetwosale.BannerLayout>
+    
+</LinearLayout>
+
+    <RelativeLayout 
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+        >
+         <EditText 
+           android:id="@+id/edit1"
+        android:layout_marginLeft="10dp"
+	    android:layout_width="200dp"
+		android:layout_height="30dp"
+		android:hint="@string/hintedit1"
+		android:textSize="16px"	    
+	    />
+        
+        <Button 
+             android:layout_toRightOf="@id/edit1"
+              android:layout_marginLeft="20dp"
+            android:id="@+id/getPassWord"
+            android:layout_width="80dp"
+			android:layout_height="40dp"
+			android:text="@string/getPass"
+			android:textSize="18px"	    
+            />
+        
+         <EditText 
+             android:layout_marginTop="40dp"
+           android:id="@+id/edit2"
+        android:layout_marginLeft="10dp"
+	    android:layout_width="200dp"
+		android:layout_height="30dp"
+		android:hint="@string/hintedit2"
+		android:textSize="16px"	    	    
+	    />
+        
+        <Button 
+            android:layout_marginTop="40dp"
+             android:layout_toRightOf="@id/edit2"
+              android:layout_marginLeft="20dp"
+            android:id="@+id/login"
+            android:layout_width="80dp"
+			android:layout_height="30dp"
+			android:text="@string/login"
+			android:textSize="18px"	 
+            />
+    </RelativeLayout>
+    
+    
+    <ImageView 
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/ba5"
+        
+        />
+    <ImageView 
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/ba2"
+        
+        />
+    <ImageView 
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/ba7"
+        
+        />
+</LinearLayout>
