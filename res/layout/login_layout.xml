@@ -57,7 +57,7 @@
              android:layout_toRightOf="@id/edit1"
               android:layout_marginLeft="20dp"
             android:id="@+id/getPassWord"
-            android:layout_width="80dp"
+            android:layout_width="120dp"
 			android:layout_height="40dp"
 			android:text="@string/getPass"
 			android:textSize="18px"	    
@@ -78,8 +78,8 @@
              android:layout_toRightOf="@id/edit2"
               android:layout_marginLeft="20dp"
             android:id="@+id/login"
-            android:layout_width="80dp"
-			android:layout_height="30dp"
+            android:layout_width="120dp"
+			android:layout_height="40dp"
 			android:text="@string/login"
 			android:textSize="18px"	 
             />
@@ -87,23 +87,23 @@
     
     
     <ImageView 
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
         android:layout_width="fill_parent"
-        android:layout_height="50dp"
+        android:layout_height="80dp"
         android:background="@drawable/ba5"
         
         />
     <ImageView 
         android:layout_marginTop="10dp"
         android:layout_width="fill_parent"
-        android:layout_height="50dp"
+        android:layout_height="80dp"
         android:background="@drawable/ba2"
         
         />
     <ImageView 
         android:layout_marginTop="10dp"
         android:layout_width="fill_parent"
-        android:layout_height="50dp"
+        android:layout_height="80dp"
         android:background="@drawable/ba7"
         
         />

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backsuc"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0.01" >
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/button2"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/buback"
+            android:text="免费吃"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_above="@+id/button4"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/buback"
+            android:text="今日优惠"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignBaseline="@+id/button4"
+            android:layout_alignBottom="@+id/button4"
+            android:layout_alignLeft="@+id/button1"
+            android:background="@drawable/buback"
+            android:text="免费喝" 
+            android:textColor="@android:color/white"/>
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignBaseline="@+id/button5"
+            android:layout_alignBottom="@+id/button5"
+            android:layout_alignLeft="@+id/button3"
+            android:background="@drawable/buback"
+            android:text="免费玩"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignLeft="@+id/button4"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="26dp"
+            android:background="@drawable/buback"
+            android:text="本店特色"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_above="@+id/button4"
+            android:layout_marginLeft="19dp"
+            android:layout_toRightOf="@+id/button1"
+            android:background="@drawable/buback"
+            android:text="顾客留言"
+            android:textColor="@android:color/white" />
+
+        
+        <ImageView 
+            android:layout_marginTop="270dp"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/aotu"
+            />
+        
+    </RelativeLayout>
+
+</LinearLayout>
